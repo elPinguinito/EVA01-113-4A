@@ -14,4 +14,6 @@ class Motocicleta(Vehiculo):
         print("La motocicleta está encendida.")
 
     def esDeAltaCilindrada(self):
-        pass
+        if self.cilindrada >= 600:
+            return "Su motocicleta es de alta cilindrada."
+        return "Su motocicleta no alcanza a ser de alta cilindrada"
